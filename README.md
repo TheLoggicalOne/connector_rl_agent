@@ -10,7 +10,7 @@
 - This Project is done on my machine, Ubuntu 20.04. I have no idea weather it is compatible with other systems
 - I am using openconnect commandline interface, for any other connection type related script/fucntions should be added to appropriate location
    - This appropriate location is to be determined 
-## Project Description, Plan and Roadmap
+## Project Description and its components
 This project has three main component:
 ### auto_connect_agent:
 an executable program that tries to connect to VPN servers by trying all possible configurations fed to it by the RL Agent  
@@ -43,3 +43,17 @@ a database(could be a file at start) for:
     - we also want rl_agent to get only updates (new data) to this database
 
  - note that rl_agent might have its own database for ranking and scoring different choices and how to execute different connecting strategies
+
+## Plan and Roadmap
+### Stage One: Create A reasonable working 
+#### Create Project Structure
+#### Create auto_connect_agent 
+- auto connect script/fucntion compatible with openconnect command line interface in Ubunto
+
+#### Design the historical data db
+#### create a fucntion/script that interact with auto_connect_agent and saves generated data to db
+#### create simple rl_agent just based on success frequency
+### Stage Two
+#### more advanced rl_agents
+#### generalize components API to provide opportunity of working with different connection types and rl_agents
+
