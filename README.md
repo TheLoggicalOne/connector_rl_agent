@@ -11,6 +11,7 @@
 - I am using openconnect commandline interface, for any other connection type related script/fucntions should be added to appropriate location
    - This appropriate location is to be determined 
 ## Project Description, Plan and Roadmap
+This project has three main component:
 ### auto_connect_agent:
 an executable program that tries to connect to VPN servers by trying all possible configurations fed to it by the RL Agent  
 This program should be able to:
